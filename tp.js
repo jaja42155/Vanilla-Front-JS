@@ -1,8 +1,6 @@
-const etage = 5
-let stair = "*"
+const superHero = ["Spiderman","Captain America","superman"]
+const phrase = "Je suis fan de"
 
-
-for (let etoile = 0; etoile < etage; etoile++) {
-      console.log(stair)
-      stair+="*"
-}
+superHero.forEach((truc) => {
+      console.log(phrase, truc)
+});
