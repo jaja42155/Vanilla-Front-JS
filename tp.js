@@ -1,12 +1,10 @@
+let amis = ["hassan","jéremy","vincent"]
 
-
-
-let nombre = 10
-let result = "decollage !"
-
-while (nombre  >= 0) {
-      console.log(nombre)
-      nombre-- 
+for (let i = 0; i < amis.length; i++) {
+      let compteur = 0
+      
+      while (compteur <= i) {
+            console.log(amis[i])
+            compteur++
+      }
 }
-
-console.log(result)
