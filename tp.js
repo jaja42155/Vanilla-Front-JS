@@ -1,6 +1,12 @@
-const superHero = ["Spiderman","Captain America","superman"]
-const phrase = "Je suis fan de"
 
-superHero.forEach((truc) => {
-      console.log(phrase, truc)
-});
+
+
+let nombre = 10
+let result = "decollage !"
+
+while (nombre  >= 0) {
+      console.log(nombre)
+      nombre-- 
+}
+
+console.log(result)
